@@ -1,0 +1,55 @@
+/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/stimela:
+  version: 2.0.1
+  mtime: 1733147807.831482
+  mtime_str: Mon Dec  2 15:56:47 2024
+  git:
+    branch: main                83982cf [origin/main] Initial commit
+    describe: heads/main-0-g83982cfb675efe26
+    remotes:
+    - "origin\tgit@github.com:africalim/zeta.git (fetch)"
+    - "origin\tgit@github.com:africalim/zeta.git (push)"
+/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/stimela/config.py:
+  origin: /Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/stimela
+/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/scabha/configuratt/__init__.py:
+  origin: /Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/stimela
+/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1733147807.7721071
+  mtime_str: Mon Dec  2 15:56:47 2024
+  md5hash: 413c28261f00873293bdb574eda39cf8
+  git:
+    branch: main                83982cf [origin/main] Initial commit
+    describe: heads/main-0-g83982cfb675efe26
+    remotes:
+    - "origin\tgit@github.com:africalim/zeta.git (fetch)"
+    - "origin\tgit@github.com:africalim/zeta.git (push)"
+/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/stimela/stimela.conf:
+  mtime: 1733147807.784555
+  mtime_str: Mon Dec  2 15:56:47 2024
+  md5hash: d42ce6769ec92fc4727878c48a0aebe2
+  git:
+    branch: main                83982cf [origin/main] Initial commit
+    describe: heads/main-0-g83982cfb675efe26
+    remotes:
+    - "origin\tgit@github.com:africalim/zeta.git (fetch)"
+    - "origin\tgit@github.com:africalim/zeta.git (push)"
+/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/cultcargo/stimela.conf:
+  mtime: 1733147807.9351695
+  mtime_str: Mon Dec  2 15:56:47 2024
+  md5hash: d8547362d63e7bb23c550ef5ac13fc0b
+  git:
+    branch: main                83982cf [origin/main] Initial commit
+    describe: heads/main-0-g83982cfb675efe26
+    remotes:
+    - "origin\tgit@github.com:africalim/zeta.git (fetch)"
+    - "origin\tgit@github.com:africalim/zeta.git (push)"
+/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/cultcargo/genesis/cult-cargo-base.yml:
+  mtime: 1733147807.9255867
+  mtime_str: Mon Dec  2 15:56:47 2024
+  md5hash: 3d21e319279df2981906e847d7b3a4dc
+  git:
+    branch: main                83982cf [origin/main] Initial commit
+    describe: heads/main-0-g83982cfb675efe26
+    remotes:
+    - "origin\tgit@github.com:africalim/zeta.git (fetch)"
+    - "origin\tgit@github.com:africalim/zeta.git (push)"
