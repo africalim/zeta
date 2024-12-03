@@ -1,0 +1,18 @@
+cabs:
+  greeter:
+    info: Greeter app
+    command: greet
+    inputs:
+      name:
+        dtype: str
+        required: true
+        policies:
+          positional: true
+
+hello:
+  info: Greeting recipe
+  steps:
+    greeting:
+      cab: greeter
+      params:
+        name: "Coral"
