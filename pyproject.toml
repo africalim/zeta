@@ -20,4 +20,5 @@ pytest = "^7.0"
 black = "^23.0"
 
 [tool.poetry.scripts]
-greet = "zeta.apps.click_greeter_2:runit"
+greet = "zeta.apps.greeter.click_greeter_2:runit"
+predict = "zeta.apps.predict_vis.predict_vis:runit"
