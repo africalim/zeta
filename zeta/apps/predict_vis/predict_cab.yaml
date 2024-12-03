@@ -1,0 +1,18 @@
+cabs:
+  predict:
+    info: predicts visibilities into model column
+    command: predict
+    inputs:
+      ms:
+        info: name of Measurement Set
+        dtype: MS
+        # required: true
+        must_exist: true
+      skymodel:
+        info: name of skymodel
+        dtype: File
+        required: true
+      img_size:
+        info: size of image (will make image of size img_size x img_size)
+        dtype: int
+        # required: true

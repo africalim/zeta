@@ -1,0 +1,37 @@
+2024-12-02 22:28:16 STIMELA.hello.greeting INFO: ### validated inputs
+2024-12-02 22:28:16 STIMELA.hello.greeting INFO: cab greet:
+2024-12-02 22:28:16 STIMELA.hello.greeting INFO:   name = Coral
+### running greet Coral
+# Traceback (most recent call last):
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/bin/greet", line 3, in <module>
+#     from zeta.apps.click_greeter import greet
+#   File "/Users/senkhosisimelane/tutorials/zeta/zeta/apps/click_greeter.py", line 16, in <module>
+#     config = paramfile_loader(OmegaConf.load(parserfile), sources)["greeter"]
+#              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/scabha/schema_utils.py", line 332, in paramfile_loader
+#     if not src.EXISTS:
+#            ^^^^^^^^^^
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/dictconfig.py", line 355, in __getattr__
+#     self._format_and_raise(
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/base.py", line 231, in _format_and_raise
+#     format_and_raise(
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/_utils.py", line 899, in format_and_raise
+#     _raise(ex, cause)
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/_utils.py", line 797, in _raise
+#     raise ex.with_traceback(sys.exc_info()[2])  # set env var OC_CAUSE=1 for full trace
+#     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/dictconfig.py", line 351, in __getattr__
+#     return self._get_impl(
+#            ^^^^^^^^^^^^^^^
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/dictconfig.py", line 442, in _get_impl
+#     node = self._get_child(
+#            ^^^^^^^^^^^^^^^^
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/basecontainer.py", line 73, in _get_child
+#     child = self._get_node(
+#             ^^^^^^^^^^^^^^^
+#   File "/Users/senkhosisimelane/tutorials/zeta/.venv/lib/python3.12/site-packages/omegaconf/dictconfig.py", line 480, in _get_node
+#     raise ConfigKeyError(f"Missing key {key!s}")
+# omegaconf.errors.ConfigAttributeError: Missing key EXISTS
+#     full_key: EXISTS
+#     object_type=dict
+2024-12-02 22:28:17 STIMELA.hello.greeting ERROR: step 'hello.greeting' has failed, aborting the recipe

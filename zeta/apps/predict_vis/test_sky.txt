@@ -1,0 +1,2 @@
+# RA Dec Flux Alpha Ref_freq
+0h0m0s 0d 1.0 0.5 hello

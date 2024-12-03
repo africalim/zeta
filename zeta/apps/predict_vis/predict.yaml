@@ -1,0 +1,8 @@
+libs:
+    _include: (zeta.apps.predict_vis)predict_cab.yaml
+
+inputs:
+    _use: libs.cabs.predict.inputs
+    
+outputs:
+    {}
