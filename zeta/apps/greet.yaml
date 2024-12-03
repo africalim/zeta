@@ -2,4 +2,7 @@ libs:
   _include: (zeta.apps)clickify_greeter.yaml
 
 inputs:
-  use: libs.cabs.greeter.inputs
+  _use: libs.cabs.greeter.inputs
+
+outputs:
+  {}
