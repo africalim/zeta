@@ -15,4 +15,8 @@ cabs:
       img_size:
         info: size of image (will make image of size img_size x img_size)
         dtype: int
-        # required: true
+        required: true
+      pix_size:
+        info: pixel size of image
+        dtype: 
+        required: true
